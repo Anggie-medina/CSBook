@@ -1,5 +1,7 @@
 echo 'Literal 1'
+echo '1.1'
 cat ../../data/Saavedra2013/n10.txt | wc -l
+echo '1.2'
 head -n 1 ../../data/Saavedra2013/n10.txt | tr -d ' ' | tr -d '\n' | wc -c
 echo ''
 echo 'Literal 2'
